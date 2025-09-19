@@ -11,15 +11,15 @@ body {
   gap: 20px;
 }
 
-.product-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  width: 180px;
-  background: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  text-align: center;
+.products-container {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #ddd; /* Added border to container */
+  padding: 20px; /* Added padding inside the container */
+  border-radius: 8px; /* Optional for rounded corners */
+  background-color: #fff; /* Optional to make the container stand out */
 }
+
 
 .product-card h3 {
   margin-bottom: 15px;
